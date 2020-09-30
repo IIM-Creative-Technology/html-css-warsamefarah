@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/5ea1afc37f.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>aPollon - Sondages Pop-Culture</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+</head>
+<body>
+    <div class="container">
+    <header>
+        <nav>
+            <a href="index.html"><img src="img/logo_apollon.png" alt="Logo aPollon" id="logo"></a>
+            <ul class="menu">
+                <li><a href="index.html"><i class="fas fa-home navicon"></i>accueil</a></li>
+                <li><a href="poll.html"><i class="fas fa-poll navicon"></i>sondages</a></li>
+                <li><a href="results.html"><i class="fas fa-medal navicon"></i>classements</a></li>
+                <li><a href="login.html"><i class="fas fa-user navicon"></i>connexion</a></li>
+            </ul>
+            <label class="chkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+        </nav>
+    </header>
+    <main class="bgpoll">
+        <div>
+            <h1>Parmi les choix présents, quel est votre super héros préféré ?</h1>
+            <div class="pollform">
+                <div class="option">
+                    <input type="radio" id="superman" name="drone" value="superman" required>
+                    <label for="superman">Superman</label>
+                </div>
+  
+                <div class="option">
+                  <input type="radio" id="batman" name="drone" value="batman" required>
+                  <label for="batman">Batman</label>
+                </div>
+                
+                <div class="option">
+                  <input type="radio" id="spider-man" name="drone" value="spider-man" required>
+                  <label for="spider-man">Spider-Man</label>
+                </div>
+            </div>
+            <div id="divbtn2">
+                <button class="btn2">Votez</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Site créé dans le cadre d'un projet scolaire</p>
+        <p>Warsamé Farah Abdi</p>
+    </footer>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
